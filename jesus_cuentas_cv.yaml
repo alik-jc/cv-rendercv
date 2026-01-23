@@ -50,6 +50,12 @@ cv:
           - "Formación integral en diseño, operación y mantenimiento de sistemas electrónicos industriales"
           - "Competencias en instrumentación especializada, diagnóstico y mantenimiento preventivo de equipos y redes"
     Proyectos Destacados:
+      - name: "[LMDLS Live Votos](https://github.com/alik-jc/LMDLS-live-votos)"
+        date: 2024
+        highlights:
+          - "Dashboard de **visualización en tiempo real** para votaciones de eventos masivos con React, TypeScript y Vite"
+          - "Implementación de arquitectura **SSR** con **Vercel** para optimización SEO y carga rápida"
+          - "Sistema de **detección de bots** y análisis de integridad de datos en votaciones concurrentes"
       - name: "[R-SC-Template](https://github.com/alik-jc/R-SC-Template)"
         date: 2024
         highlights:
@@ -60,9 +66,9 @@ cv:
       - label: "Automatización"
         details: "Scripting en Bash, workflows con NodeJS y TypeScript, web scraping, manejo de datos masivos"
       - label: "Programación"
-        details: "TypeScript, JavaScript, NodeJS, Express, APIs RESTful"
+        details: "TypeScript, JavaScript, NodeJS, Express, APIs RESTful, React"
       - label: "DevOps & Infraestructura"
-        details: "Docker, Linux (Ubuntu/Debian), administración de VPS, CI/CD"
+        details: "Docker, Linux (Ubuntu/Debian), administración de VPS, CI/CD, Vercel"
       - label: "Web & Seguridad"
         details: "Cloudflare (CDN, WAF), configuración DNS, hardening de servidores, auditorías de seguridad"
       - label: "Otras herramientas"
@@ -160,6 +166,9 @@ rendercv_settings:
     - "RESTful"
     - "VPS"
     - "Git"
+    - "React"
+    - "Vercel"
+    - "SSR"
   render_command:
     output_folder_name: "rendercv_output"
     pdf_path: "jesus_cuentas_cv.pdf"
