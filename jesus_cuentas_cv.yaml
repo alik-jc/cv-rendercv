@@ -1,0 +1,171 @@
+cv:
+  name: "Jesús Cuentas"
+  location: "Colombia"
+  email: "alik@jc.qsag.cloud"
+  phone: "+57 304 111 7364"
+  social_networks:
+    - network: "LinkedIn"
+      username: "jesus.cuentas"
+    - network: "GitHub"
+      username: "alik-jc"
+  sections:
+    Perfil Profesional:
+      - "Desarrollador especializado en **automatización de procesos** y **desarrollo backend** con TypeScript y NodeJS. Experiencia en infraestructura cloud, administración de sistemas Linux, y optimización de recursos mediante scripting avanzado. Enfocado en soluciones escalables, seguridad web y automatización de flujos de negocio."
+    Experiencia:
+      - company: "Desarrollador Independiente"
+        position: "Desarrollador Web"
+        location: "Colombia"
+        start_date: "2022-09"
+        end_date: "present"
+        highlights:
+          - "Desarrollo de **soluciones automatizadas** para tareas repetitivas, optimización de recursos y administración de VPS"
+          - "Programación con **TypeScript** y **NodeJS** orientada a automatización de procesos y flujos de negocio"
+          - "Automatización de despliegue y orquestación con **Bash** y **Docker**, integración de APIs y microservicios"
+          - "Configuración avanzada de dominios, **CDN** y **WAF** en Cloudflare"
+      - company: "ingenius360.com"
+        position: "Web Master y Ciberseguridad"
+        location: "Colombia"
+        start_date: "2023-11"
+        end_date: "2024-11"
+        highlights:
+          - "Montaje y optimización de sitios web con enfoque en rendimiento y SEO"
+          - "Verificación de seguridad a nivel raíz en servidor **Linux** y CDN en **Cloudflare**"
+          - "Implementación de medidas de hardening y monitoreo de vulnerabilidades"
+      - company: "GINELECT"
+        position: "Estudiante Auxiliar de Investigación"
+        location: "Universidad de Sucre"
+        start_date: "2023-04"
+        end_date: "2023-09"
+        highlights:
+          - "Auditoría de procesos automatizados y documentación de testeo para control de calidad digital"
+          - "Análisis de sistemas de instrumentación y control en entornos industriales"
+    Educación:
+      - institution: "Universidad de Sucre"
+        area: "Electrónica Industrial"
+        degree: "Tecnología"
+        location: "Sucre, Colombia"
+        start_date: "2018-02"
+        end_date: "2025-10"
+        highlights:
+          - "Formación integral en diseño, operación y mantenimiento de sistemas electrónicos industriales"
+          - "Competencias en instrumentación especializada, diagnóstico y mantenimiento preventivo de equipos y redes"
+    Proyectos Destacados:
+      - name: "[R-SC-Template](https://github.com/alik-jc/R-SC-Template)"
+        date: 2024
+        highlights:
+          - "API GET para **web scraping automatizado** con Express, Axios, TypeScript y Puppeteer"
+          - "Base reutilizable para robots de extracción de datos en entornos empresariales"
+          - "Arquitectura modular y escalable"
+    Habilidades Técnicas:
+      - label: "Automatización"
+        details: "Scripting en Bash, workflows con NodeJS y TypeScript, web scraping, manejo de datos masivos"
+      - label: "Programación"
+        details: "TypeScript, JavaScript, NodeJS, Express, APIs RESTful"
+      - label: "DevOps & Infraestructura"
+        details: "Docker, Linux (Ubuntu/Debian), administración de VPS, CI/CD"
+      - label: "Web & Seguridad"
+        details: "Cloudflare (CDN, WAF), configuración DNS, hardening de servidores, auditorías de seguridad"
+      - label: "Otras herramientas"
+        details: "Git, Puppeteer, Axios, Networking, HTML, CSS, POO"
+design:
+  theme: "sb2nov"
+  page:
+    size: "us-letter"
+    top_margin: "1.5cm"
+    bottom_margin: "1.5cm"
+    left_margin: "1.8cm"
+    right_margin: "1.8cm"
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    text: "black"
+    name: "black"
+    connections: "black"
+    section_titles: "black"
+    links: "black"
+    last_updated_date_and_page_numbering: "grey"
+  text:
+    font_size: "10pt"
+    alignment: "justified"
+  header:
+    name_font_size: "28pt"
+    name_bold: true
+    vertical_space_between_name_and_connections: "0.5cm"
+    vertical_space_between_connections_and_first_section: "0.5cm"
+    use_icons_for_connections: true
+    alignment: "center"
+  section_titles:
+    type: "with-partial-line"
+    bold: true
+    font_size: "1.3em"
+  entries:
+    vertical_space_between_entries: "1em"
+  highlights:
+    top_margin: "0.2cm"
+    left_margin: "0.4cm"
+    vertical_space_between_highlights: "0.2cm"
+locale:
+  language: "es"
+  phone_number_format: "national"
+  date_template: "MONTH_ABBREVIATION YEAR"
+  page_numbering_template: "Jesús Cuentas - Página PAGE_NUMBER de TOTAL_PAGES"
+  last_updated_date_template: "Actualizado en TODAY"
+  month: "mes"
+  months: "meses"
+  year: "año"
+  years: "años"
+  present: "presente"
+  to: "–"
+  abbreviations_for_months:
+    - "ene"
+    - "feb"
+    - "mar"
+    - "abr"
+    - "may"
+    - "jun"
+    - "jul"
+    - "ago"
+    - "sept"
+    - "oct"
+    - "nov"
+    - "dic"
+  full_names_of_months:
+    - "enero"
+    - "febrero"
+    - "marzo"
+    - "abril"
+    - "mayo"
+    - "junio"
+    - "julio"
+    - "agosto"
+    - "septiembre"
+    - "octubre"
+    - "noviembre"
+    - "diciembre"
+rendercv_settings:
+  date: "2026-01-22"
+  bold_keywords:
+    - "TypeScript"
+    - "JavaScript"
+    - "NodeJS"
+    - "Docker"
+    - "Linux"
+    - "Bash"
+    - "Cloudflare"
+    - "Express"
+    - "Puppeteer"
+    - "CDN"
+    - "WAF"
+    - "APIs"
+    - "RESTful"
+    - "VPS"
+    - "Git"
+  render_command:
+    output_folder_name: "rendercv_output"
+    pdf_path: "jesus_cuentas_cv.pdf"
+    typst_path: "jesus_cuentas_cv.typ"
+    html_path: "jesus_cuentas_cv.html"
+    markdown_path: "jesus_cuentas_cv.md"
+    dont_generate_html: false
+    dont_generate_markdown: false
+    dont_generate_png: true
