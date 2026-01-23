@@ -20,7 +20,7 @@ cv:
         highlights:
           - "Desarrollo de **soluciones automatizadas** para tareas repetitivas, optimización de recursos y administración de VPS"
           - "Programación con **TypeScript** y **NodeJS** orientada a automatización de procesos y flujos de negocio"
-          - "Automatización de despliegue y orquestación con **Bash** y **Docker**, integración de APIs y microservicios"
+          - "Automatización de despliegue y orquestación con **Bash**, integración de APIs y microservicios"
           - "Configuración avanzada de dominios, **CDN** y **WAF** en Cloudflare"
       - company: "ingenius360.com"
         position: "Web Master y Ciberseguridad"
@@ -51,7 +51,7 @@ cv:
           - "Competencias en instrumentación especializada, diagnóstico y mantenimiento preventivo de equipos y redes"
     Proyectos Destacados:
       - name: "[LMDLS Live Votos](https://github.com/alik-jc/LMDLS-live-votos)"
-        date: 2024
+        date: 2025
         highlights:
           - "Dashboard de **visualización en tiempo real** para votaciones de eventos masivos con React, TypeScript y Vite"
           - "Implementación de arquitectura **SSR** con **Vercel** para optimización SEO y carga rápida"
@@ -68,9 +68,9 @@ cv:
       - label: "Programación"
         details: "TypeScript, JavaScript, NodeJS, Express, APIs RESTful, React"
       - label: "DevOps & Infraestructura"
-        details: "Docker, Linux (Ubuntu/Debian), administración de VPS, CI/CD, Vercel"
+        details: "Linux (Ubuntu/Debian), administración de VPS, Vercel"
       - label: "Web & Seguridad"
-        details: "Cloudflare (CDN, WAF), configuración DNS, hardening de servidores, auditorías de seguridad"
+        details: "Cloudflare (CDN, WAF), configuración DNS, hardening de servidores"
       - label: "Otras herramientas"
         details: "Git, Puppeteer, Axios, Networking, HTML, CSS, POO"
 design:
@@ -154,7 +154,6 @@ rendercv_settings:
     - "TypeScript"
     - "JavaScript"
     - "NodeJS"
-    - "Docker"
     - "Linux"
     - "Bash"
     - "Cloudflare"
