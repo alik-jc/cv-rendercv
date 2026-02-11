@@ -1,0 +1,181 @@
+cv:
+  name: "Jesús Cuentas"
+  location: "Colombia"
+  email: "alik@jc.qsag.cloud"
+  phone: "+57 304 111 7364"
+  social_networks:
+    - network: "LinkedIn"
+      username: "jesus.cuentas"
+    - network: "GitHub"
+      username: "alik-jc"
+
+  sections:
+    Perfil Profesional:
+      - "Desarrollador enfocado en **automatización de procesos** y **extracción de datos (web scraping)** con TypeScript y NodeJS. Construyo scripts y servicios que recolectan, normalizan y entregan datos listos para negocio en **CSV/JSON** o vía **API REST**, con énfasis en estabilidad (timeouts, reintentos, validación) y operación en Linux/VPS."
+
+    Experiencia:
+      - company: "Desarrollador Independiente"
+        position: "Desarrollador Web"
+        location: "Colombia"
+        start_date: "2022-09"
+        end_date: "present"
+        highlights:
+          - "Automatización de tareas repetitivas y flujos de negocio con **NodeJS** y **TypeScript**"
+          - "Construcción de scrapers/robots de extracción con **Puppeteer** y consumo de APIs con **Axios**"
+          - "Integración de servicios y microservicios mediante **Express** y **APIs REST**"
+          - "Operación en **Linux/VPS** y configuración de dominios, **CDN** y **WAF** en Cloudflare"
+
+      - company: "ingenius360.com"
+        position: "Web Master y Ciberseguridad"
+        location: "Colombia"
+        start_date: "2023-11"
+        end_date: "2024-11"
+        highlights:
+          - "Montaje y optimización de sitios web con enfoque en rendimiento y SEO"
+          - "Verificación de seguridad a nivel raíz en servidor **Linux** y CDN en **Cloudflare**"
+          - "Implementación de medidas de hardening y monitoreo de vulnerabilidades"
+
+      - company: "GINELECT"
+        position: "Estudiante Auxiliar de Investigación"
+        location: "Universidad de Sucre"
+        start_date: "2023-04"
+        end_date: "2023-09"
+        highlights:
+          - "Auditoría de procesos automatizados y documentación de testeo para control de calidad digital"
+          - "Análisis de sistemas de instrumentación y control en entornos industriales"
+
+    Proyectos Destacados:
+      - name: "[R-SC-Template](https://github.com/alik-jc/R-SC-Template)"
+        date: 2024
+        highlights:
+          - "API GET para **web scraping automatizado** con **Express**, **Axios**, TypeScript y **Puppeteer**"
+          - "Base reutilizable para extracción: requests, parseo, normalización y exportación de datos"
+          - "Arquitectura modular y escalable para bots de recolección de información"
+
+      - name: "[LMDLS Live Votos](https://github.com/alik-jc/LMDLS-live-votos)"
+        date: 2025
+        highlights:
+          - "Dashboard de datos en tiempo real con React/TypeScript, útil como evidencia de manejo de actualización periódica y visualización"
+          - "Arquitectura **SSR** en **Vercel** para performance y render inicial rápido"
+          - "Análisis de integridad de datos con detección de patrones anómalos (actividad sospechosa)"
+
+    Habilidades Técnicas:
+      - label: "Automatización & Scraping"
+        details: "Web scraping (Puppeteer), extracción/normalización de datos, exportación CSV/JSON, scripting en Bash, workflows con NodeJS y TypeScript"
+      - label: "Backend"
+        details: "TypeScript, JavaScript, NodeJS, Express, APIs RESTful, Axios"
+      - label: "Sistemas"
+        details: "Linux (Ubuntu/Debian), administración de VPS"
+      - label: "Infra Web"
+        details: "Cloudflare (DNS, CDN, WAF)"
+      - label: "Otras herramientas"
+        details: "Git, Networking, HTML, CSS, POO"
+
+design:
+  theme: "sb2nov"
+  page:
+    size: "us-letter"
+    top_margin: "1.5cm"
+    bottom_margin: "1.5cm"
+    left_margin: "1.8cm"
+    right_margin: "1.8cm"
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    text: "black"
+    name: "black"
+    connections: "black"
+    section_titles: "black"
+    links: "black"
+    last_updated_date_and_page_numbering: "grey"
+  text:
+    font_size: "10pt"
+    alignment: "justified"
+  header:
+    name_font_size: "28pt"
+    name_bold: true
+    vertical_space_between_name_and_connections: "0.5cm"
+    vertical_space_between_connections_and_first_section: "0.5cm"
+    use_icons_for_connections: true
+    alignment: "center"
+  section_titles:
+    type: "with-partial-line"
+    bold: true
+    font_size: "1.3em"
+  entries:
+    vertical_space_between_entries: "1em"
+  highlights:
+    top_margin: "0.2cm"
+    left_margin: "0.4cm"
+    vertical_space_between_highlights: "0.2cm"
+
+locale:
+  language: "es"
+  phone_number_format: "national"
+  date_template: "MONTH_ABBREVIATION YEAR"
+  page_numbering_template: "Jesús Cuentas - Página PAGE_NUMBER de TOTAL_PAGES"
+  last_updated_date_template: "Actualizado en TODAY"
+  month: "mes"
+  months: "meses"
+  year: "año"
+  years: "años"
+  present: "presente"
+  to: "–"
+  abbreviations_for_months:
+    - "ene"
+    - "feb"
+    - "mar"
+    - "abr"
+    - "may"
+    - "jun"
+    - "jul"
+    - "ago"
+    - "sept"
+    - "oct"
+    - "nov"
+    - "dic"
+  full_names_of_months:
+    - "enero"
+    - "febrero"
+    - "marzo"
+    - "abril"
+    - "mayo"
+    - "junio"
+    - "julio"
+    - "agosto"
+    - "septiembre"
+    - "octubre"
+    - "noviembre"
+    - "diciembre"
+
+rendercv_settings:
+  date: "2026-02-11"
+  bold_keywords:
+    - "TypeScript"
+    - "JavaScript"
+    - "NodeJS"
+    - "Express"
+    - "Axios"
+    - "Puppeteer"
+    - "Scraping"
+    - "CSV"
+    - "JSON"
+    - "APIs"
+    - "REST"
+    - "Linux"
+    - "VPS"
+    - "Cloudflare"
+    - "CDN"
+    - "WAF"
+    - "Git"
+    - "SSR"
+    - "Vercel"
+  render_command:
+    output_folder_name: "rendercv_output"
+    pdf_path: "jesus_cuentas_workana.pdf"
+    typst_path: "jesus_cuentas_workana.typ"
+    html_path: "jesus_cuentas_workana.html"
+    markdown_path: "jesus_cuentas_workana.md"
+    dont_generate_html: false
+    dont_generate_markdown: false
+    dont_generate_png: true
